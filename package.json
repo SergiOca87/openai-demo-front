@@ -22,6 +22,9 @@
 		"vite": "^4.4.5"
 	},
 	"proxy": "http://localhost:4000",
+	"engines": {
+		"node": "14.x"
+	},
 	"devDependencies": {
 		"@types/react": "^18.2.15",
 		"@types/react-dom": "^18.2.7",

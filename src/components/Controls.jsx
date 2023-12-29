@@ -21,7 +21,7 @@ function Controls({
 		setGenerateTextLoading(true);
 
 		try {
-			const response = await fetch('http://localhost:4000/openai/text', {
+			const response = await fetch('https://openai-demo-app.onrender.com/openai/text', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',
@@ -43,7 +43,7 @@ function Controls({
 
 		try {
 			const response = await fetch(
-				'http://localhost:4000/openai/summarize',
+				'https://openai-demo-app.onrender.com/openai/summarize',
 				{
 					method: 'POST',
 					headers: {
@@ -69,7 +69,7 @@ function Controls({
 
 		try {
 			const response = await fetch(
-				'http://localhost:4000/openai/keywords',
+				'https://openai-demo-app.onrender.com/openai/keywords',
 				{
 					method: 'POST',
 					headers: {
@@ -93,7 +93,7 @@ function Controls({
 		setGenerateImageLoading(true);
 
 		try {
-			const response = await fetch('http://localhost:4000/openai/image', {
+			const response = await fetch('https://openai-demo-app.onrender.com/openai/image', {
 				method: 'POST',
 				headers: {
 					'content-Type': 'application/json',
